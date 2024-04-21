@@ -1,0 +1,26 @@
+.button {
+  font-weight: 600;
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  color: white;
+}
+
+.button-good {
+  background-color: #28a745;
+}
+
+.button-neutral {
+  background-color: #6c757d;
+}
+
+.button-bad {
+  background-color: #dc3545;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
